@@ -5,4 +5,20 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="AppTheme.Title" parent="Base.TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@color/fg_text_title</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="AppTheme.Button" parent="Base.Widget.AppCompat.Button">
+        <item name="android:layout_margin">@dimen/button_margin</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/bg_button_default</item>
+        <item name="android:minWidth">@dimen/button_min_width</item>
+    </style>
+
+    <style name="AppTheme.Button.Capstone" parent="AppTheme.Button">
+        <item name="android:background">@color/bg_button_capstone</item>
+    </style>
+
 </resources>

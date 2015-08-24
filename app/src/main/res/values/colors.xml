@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_activity_main">#ffdfeaf1</color>
+    <color name="bg_button_default">#ffde9e58</color>
+    <color name="bg_button_capstone">#ffba3656</color>
+    <color name="fg_text_title">#ff4e6275</color>
+</resources>
